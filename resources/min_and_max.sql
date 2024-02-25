@@ -18,7 +18,9 @@ FROM Products;
 SELECT MAX(Price)
 FROM Products;
 
-/* When you use MIN() or MAX(), the returned column will be named MIN(field) or MAX(field) by default. To give the column a new name, use the AS keyword */
+/* When you use MIN() or MAX(), 
+the returned column will be named MIN(field) or MAX(field) by default. 
+To give the column a new name, use the AS keyword */
 
 SELECT MIN(Price) AS SmallestPrice
 FROM Products;
