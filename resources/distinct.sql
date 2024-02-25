@@ -4,6 +4,6 @@ SELECT DISTINCT Country FROM Customers;
 
 -- Syntax --
 
-SELECT DISTINCT column1, column2, ...
+SELECT DISTINCT column(n-1), column(n), column(n+1)
 FROM table_name;
 
