@@ -9,3 +9,9 @@ WHERE condition;
 UPDATE Customers
 SET ContactName = 'Alfred Schmidt', City= 'Frankfurt'
 WHERE CustomerID = 1;
+
+-- Update the ContactName to "Juan" for all records where country is "Mexico" --
+
+UPDATE Customers
+SET ContactName='Juan'
+WHERE Country='Mexico';
