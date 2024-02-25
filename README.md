@@ -2,7 +2,7 @@
 
 ## Overview
 
-> Discover a rich collection of SQl code examples and educational materials, perfect for beginners and intermediate learners in database management systems.
+> Discover a rich collection of SQL code examples and educational materials, perfect for beginners and intermediate learners in database management systems.
 
 ## Folders
 
