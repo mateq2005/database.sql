@@ -7,3 +7,7 @@ SELECT DISTINCT Country FROM Customers;
 SELECT DISTINCT column(n-1), column(n), column(n+1)
 FROM table_name;
 
+-- Count Distinct --
+
+SELECT COUNT(DISTINCT Country) FROM Customers;
+
