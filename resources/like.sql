@@ -25,3 +25,8 @@ WHERE city LIKE '%L%';
 
 SELECT * FROM Customers
 WHERE CustomerName LIKE 'La%';
+
+-- Return all customers that starts with 'a' or starts with 'b' --
+
+SELECT * FROM Customers
+WHERE (CustomerName LIKE 'a%') OR (CustomerName LIKE 'b%');
