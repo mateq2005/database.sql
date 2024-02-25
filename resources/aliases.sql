@@ -31,3 +31,9 @@ that combine four columns (Address, PostalCode, City and Country) */
 
 SELECT CustomerName, CONCAT(Address,', ',PostalCode,', ',City,', ',Country) AS Address
 FROM Customers;
+
+/*
+SELECT o.OrderID, o.OrderDate, c.CustomerName
+FROM Customers AS c, Orders AS o
+WHERE c.CustomerName='Around the Horn' AND c.CustomerID=o.CustomerID;
+*/
