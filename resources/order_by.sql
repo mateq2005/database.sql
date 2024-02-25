@@ -13,3 +13,8 @@ ORDER BY column(n-1), column(n), column(n+1) ASC|DESC;
 
 SELECT * FROM Products
 ORDER BY Price DESC;
+
+-- Sort the products alphatbetically by ProductName --
+
+SELECT * FROM Products
+ORDER BY ProductName;
