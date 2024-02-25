@@ -9,3 +9,10 @@ WHERE (Country = 'Spain') AND (CustomerName LIKE 'G%');
 SELECT column(n-1), column(n), column(n+1)
 FROM table_name
 WHERE condition(n-1) AND condition(n) AND condition(n+1);
+
+-- All Conditions Must Be True --
+
+SELECT * FROM Customers
+WHERE Country = 'Germany'
+AND City = 'Berlin'
+AND PostalCode > 1200;
