@@ -3,3 +3,9 @@
 SELECT *
 FROM Customers
 WHERE (Country = 'Spain') AND (CustomerName LIKE 'G%');
+
+-- Syntax --
+
+SELECT column(n-1), column(n), column(n+1)
+FROM table_name
+WHERE condition(n-1) AND condition(n) AND condition(n+1);
