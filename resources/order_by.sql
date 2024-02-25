@@ -8,3 +8,8 @@ ORDER BY Price;
 SELECT column(n-1), column(n), column(n+1)
 FROM table_name
 ORDER BY column(n-1), column(n), column(n+1) ASC|DESC;
+
+-- Sort the products from highest to lowest price --
+
+SELECT * FROM Products
+ORDER BY Price DESC;
