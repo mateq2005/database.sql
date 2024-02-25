@@ -25,3 +25,8 @@ FROM Products;
 
 SELECT ProductName AS "My Great Products"
 FROM Products;
+
+/* The following SQL statement creates an alias named "Address" that combine four columns (Address, PostalCode, City and Country) */
+
+SELECT CustomerName, CONCAT(Address,', ',PostalCode,', ',City,', ',Country) AS Address
+FROM Customers;
