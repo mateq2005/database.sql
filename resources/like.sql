@@ -15,3 +15,13 @@ then 'nd' and then two wildcard characters */
 
 SELECT * FROM Customers
 WHERE city LIKE 'L_nd__';
+
+-- Return all customers from a city that contains the letter 'L' --
+
+SELECT * FROM Customers
+WHERE city LIKE '%L%';
+
+-- Return all customers that starts with 'La' --
+
+SELECT * FROM Customers
+WHERE CustomerName LIKE 'La%';
