@@ -16,3 +16,13 @@ CASE
     ELSE 'The quantity is under 30'
 END AS QuantityText
 FROM OrderDetails;
+
+-- The following SQL will order the customers by City. However, if City is NULL, then order by Country --
+
+SELECT CustomerName, City, Country
+FROM Customers
+ORDER BY
+(CASE
+    WHEN City IS NULL THEN Country
+    ELSE City
+END);
