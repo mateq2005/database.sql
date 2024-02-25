@@ -28,3 +28,8 @@ ORDER BY ProductName DESC;
 
 SELECT * FROM Customers
 ORDER BY Country, CustomerName;
+
+-- Sorted ascending by the "Country" and descending by the "CustomerName" column --
+
+SELECT * FROM Customers
+ORDER BY Country ASC, CustomerName DESC;
