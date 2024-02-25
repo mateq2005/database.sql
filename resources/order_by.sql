@@ -18,3 +18,8 @@ ORDER BY Price DESC;
 
 SELECT * FROM Products
 ORDER BY ProductName;
+
+-- Sort the products by ProductName in reverse order --
+
+SELECT * FROM Products
+ORDER BY ProductName DESC;
