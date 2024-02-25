@@ -14,3 +14,8 @@ WHERE condition(n-1) AND condition(n) AND condition(n+1);
 
 SELECT * FROM Customers
 WHERE Country = 'Germany' AND City = 'Berlin' AND PostalCode > 1200;
+
+-- Select all Spanish customers that starts with either "G" or "R" --
+
+SELECT * FROM Customers
+WHERE Country = 'Spain' AND (CustomerName LIKE 'G%' OR CustomerName LIKE 'R%');
