@@ -34,3 +34,12 @@ not between Carnarvon Tigers and Mozzarella di Giovanni */
 SELECT * FROM Products
 WHERE ProductName NOT BETWEEN 'Carnarvon Tigers' AND 'Mozzarella di Giovanni'
 ORDER BY ProductName;
+
+-- BETWEEN Dates --
+
+SELECT * FROM Orders
+WHERE OrderDate BETWEEN #07/01/1996# AND #07/31/1996#;
+
+SELECT * FROM Orders
+WHERE OrderDate BETWEEN '1996-07-01' AND '1996-07-31';
+
