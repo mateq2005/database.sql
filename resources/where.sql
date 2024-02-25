@@ -5,6 +5,6 @@ WHERE Country='Mexico';
 
 -- Syntax --
 
-SELECT 
+SELECT column(n-1), column(n), column(n+1)
 FROM table_name
 WHERE condition;
