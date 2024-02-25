@@ -8,3 +8,8 @@ WHERE NOT Country = 'Spain';
 SELECT column(n-1), column(n), column(n+1)
 FROM table_name
 WHERE NOT condition(n);
+
+-- Select customers that does not start with the letter 'A' --
+
+SELECT * FROM Customers
+WHERE CustomerName NOT LIKE 'A%';
