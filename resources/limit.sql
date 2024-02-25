@@ -10,7 +10,7 @@ LIMIT number;
 SELECT * FROM Customers
 LIMIT 3;
 
-- Selects the first three records from the "Customers" table, where the country is "Germany" --
+-- Selects the first three records from the "Customers" table, where the country is "Germany" --
 
 SELECT * FROM Customers
 WHERE Country='Germany'
