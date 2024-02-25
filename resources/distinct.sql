@@ -1,4 +1,4 @@
--- Statement is used to return only distinct (different) values --
+-- Select all the different countries from the "Customers" table --
 
 SELECT DISTINCT Country FROM Customers;
 
