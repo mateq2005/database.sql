@@ -1,4 +1,4 @@
--- Examples --
+-- Return data from the Customers table --
 
 SELECT CustomerName, City FROM Customers;
 
