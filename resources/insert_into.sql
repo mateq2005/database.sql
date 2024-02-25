@@ -8,5 +8,7 @@ VALUES (value(n-1), value(n), value(n+1));
 
 -- The following SQL statement inserts a new record in the "Customers" table --
 
-INSERT INTO Customers (CustomerName, ContactName, Address, City, PostalCode, Country)
-VALUES ('Cardinal', 'Tom B. Erichsen', 'Skagen 21', 'Stavanger', '4006', 'Norway');
+INSERT INTO Customers 
+(CustomerName, ContactName, Address, City, PostalCode, Country)
+VALUES 
+('Cardinal', 'Tom B. Erichsen', 'Skagen 21', 'Stavanger', '4006', 'Norway');
