@@ -13,6 +13,4 @@ WHERE condition(n-1) AND condition(n) AND condition(n+1);
 -- All Conditions Must Be True --
 
 SELECT * FROM Customers
-WHERE Country = 'Germany'
-AND City = 'Berlin'
-AND PostalCode > 1200;
+WHERE Country = 'Germany' AND City = 'Berlin' AND PostalCode > 1200;
