@@ -2,6 +2,7 @@
 
 SELECT * FROM Customers;
 
+/*
 SELECT - extracts data from a database
 UPDATE - updates data in a database
 DELETE - deletes data from a database
@@ -13,3 +14,4 @@ ALTER TABLE - modifies a table
 DROP TABLE - deletes a table
 CREATE INDEX - creates an index (search key)
 DROP INDEX - deletes an index
+*/
