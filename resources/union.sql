@@ -17,3 +17,10 @@ UNION
 SELECT City FROM Suppliers
 ORDER BY City;
 
+/* The following SQL statement returns the cities (duplicate values also) from both the "Customers" and the "Suppliers" table */
+
+SELECT City FROM Customers
+UNION ALL
+SELECT City FROM Suppliers
+ORDER BY City;
+
